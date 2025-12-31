@@ -8,8 +8,13 @@ Python project developed as part of the PEA coursework.
 - Python = 3.13
 
 ## Project structure
-- `src/` — source code
-  - `main.py` — entry point
+- `src/` - source code
+  - `main.py` - main entry point
+  - `config.py` - configuration file
+  - `utils/` - package with helper functions
+  - `interrogator/` - communication (data gathering) pacakge
+    - `csvreader.py` - can be run directly to analyze a spectrum file `spec.csv`
+
 
 ## How to use
 1. Clone the repository
